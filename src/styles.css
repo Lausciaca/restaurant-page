@@ -1,3 +1,34 @@
 section{
     background-color: rgb(185, 185, 185);
 }
+
+.nav-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-link{
+    border: 2px solid;
+    cursor: pointer;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+}
+.nav-link:hover{
+    background-color: rgb(223, 240, 255);
+}
+
+
+.menu-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    border: 2px solid;
+    width: fit-content;
+    padding: 5px;
+}
