@@ -7,4 +7,5 @@ module.exports = {
     filename: 'main.js', // Nombre del archivo de salida
     path: path.resolve(__dirname, 'build'), // Carpeta de salida
   },
+  mode: 'development',
 };
